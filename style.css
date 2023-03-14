@@ -1,0 +1,173 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: lightblue;
+}
+.container{
+    display: flex;
+   background-color: lightblue;
+}
+.box {
+    background-image: radial-gradient( circle farthest-corner at 83.7% 4.3%,  rgba(173,0,171,1) 0%, rgba(15,51,92,1) 90% );
+    padding: 9px 0px;
+    width: 470px;
+    margin: auto;
+    margin-top: 40px;
+    margin-left: 130px;
+    text-align: center;
+    color: white;
+}
+
+h1#title {
+    text-align: center;
+    margin-top: 20px;
+    color: #740a1c;
+    font-size: 26px;
+}
+p#singer {
+    text-align: center;
+    font-size: 15px;
+    color: #e6e6e6;
+    margin-top: 10px;
+}
+input.duration {
+    width: 225px;
+    margin-top: 26px;
+}
+.fas {
+    font-weight: 800;
+    font-size: 21px;
+}
+.plbt{
+    display: block;
+}
+.show{
+    display: block;
+}
+.btns {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 14px;
+}
+.play{
+    display: block;
+}
+.pause{
+    display: none;
+}
+input#volrange {
+    width: 110px;
+}
+.volume {
+
+    margin-left: 150px;
+    margin-top: 21px;
+
+}
+i:hover{
+    cursor: pointer;
+}
+input[type = "range"]{
+    cursor: pointer;
+}
+
+h1#name {
+    font-size: 16px;
+}
+img#cover_photo {
+    height: 248px;
+    width: 282px;
+    margin-top: 19px;
+    margin-bottom: 8px;
+}
+p#movie {
+    font-size: 25px;
+}
+.active{
+    color: blue;
+}
+p#onboard {
+    margin-top: 14px;
+    font-size: 14px;
+    font-weight: bold;
+    color: lightblue;
+    opacity: 0;
+}
+.img {
+    background-image: url(https://images.news18.com/ibnlive/uploads/2014/08/chammak-aug19.jpg?im=FitAndFill,width=1200,height=1200);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:top;
+    height: 284px;
+    width: 85%;
+    margin: 3% 0px 3% 35px;
+}
+li {
+    border: solid #434356;
+    padding: 6px 0px;
+    text-align: center;
+    list-style: none;
+    border-radius: 43px;
+    margin-bottom: 2px;
+    background-color: #b3b3e9;
+}
+li:hover{
+    transition: 0.8s;
+    cursor: pointer;
+    background-color:rgb(59, 59, 233);
+    color: white;
+}
+.playList {
+    width: 295px;
+    right: 29px;
+    max-height: 342px;
+    overflow: auto;
+}
+
+.shows{
+    display: block;
+}
+.recent{
+    position: relative;
+}
+img#logo {
+    height: 73px;
+    margin-left: 20px;
+    margin-top: 3px;
+}
+p#lists {
+    background-color: blue;
+    color: white;
+    font-size: 29px;
+    width: 150px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 12px;
+    margin-left: 80px;
+    margin-top: 40px;
+}
+.resMus {
+    padding: 15px 40px;
+    font-size: 23px;
+    background-color: blue;
+    border: 0;
+    border-radius: 12px;
+    color: white;
+    margin-top: 123px;
+    margin-left: 145px;
+}
+.recentLists {
+    margin-left: 90px;
+    margin-right: -50px;
+    max-height: 150px;
+    overflow: auto;
+}
+.parent {
+    margin-left: 51px;
+}
+p:hover{
+    cursor: pointer;
+}
