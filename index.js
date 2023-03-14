@@ -8,86 +8,16 @@ let audios = [
         name: "Aaruyire",
         img: "url('https://en.janbharattimes.com/wp-content/uploads/2018/12/Aishwarya-rai-bachchan-with-Abhishek-bachchan-hot-photoshoot.jpg')"
     },
+    
     {
         id: 1,
-        Movie: "Album",
-        artist: "Album",
-        web: "./jhhhhhh/Adi-Penne-MassTamilan.fm.mp3",
-        name: "Adi-Penne",
-        img: "url('https://i.scdn.co/image/ab67616d0000b27375dda072b4aeb883ac58347b')"
-    },
-    {
-        id: 2,
-        Movie: "Chammak chalo",
-        artist: "AR Rahman",
-        web: "./jhhhhhh/Chammak_Challo_Remix_(Dj_Khushi)-VmusiQ.Com.mp3",
-        name: "Chammak_Challo_Remix",
-        img: "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_qtkTGmPyU4XVupvVbGNd-ce5gwSlQIUa4Q&usqp=CAU')"
-    },
-    {
-        id: 3,
-        Movie: "Album",
-        artist: "Album",
-        web: "./jhhhhhh/Yedhedho_Pennae-StarMusiQ.Com.mp3",
-        name: "Yedhedho_Pennae",
-        img: "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7AoVMoslCzfMuei-vC83eYo3AO4Sq2DPU5zd7tYNuH9sqvXuTGIPA9qOWA7lcYITsxM8&usqp=CAU')"
-    },
-    {
-        id: 4,
-        Movie: "3",
-        artist: "AR Rahman",
-        web: "./jhhhhhh/Idhazhin_Oram-StarMusiQ.Com.mp3",
-        name: "Emmaiyaalum",
-        img: "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_qtkTGmPyU4XVupvVbGNd-ce5gwSlQIUa4Q&usqp=CAU')"
-    },
-    {
-        id: 5,
-        Movie: "Tiruvannamalai",
-        artist: "Shankar Mahadevan & Chorus",
-        web: "./jhhhhhh/Emmaiyaalum-StarMusiQ.Com.mp3",
-        name: "Emmaialum",
-        img: "url('https://images.mymazaa.net/media/images/large/movies/tamil/thiruvannamalai.jpg')"
-    },
-    {
-        id: 6,
         Movie: "I",
         artist: "Sid Sriram",
         web: "./jhhhhhh/Ennodu_Nee_Irundhal_(Reprise)-StarMusiQ.Com.mp3",
         name: "Ennodu Nee Irundhal",
         img: "url('https://www.tamil2lyrics.com/wp-content/uploads/2017/09/ennodu.png')"
     },
-    {
-        id: 7,
-        Movie: "Ethir Neechal",
-        artist: "AR Rahman",
-        web: "./jhhhhhh/Velicha-Poove.mp3",
-        name: "Velicha Poove",
-        img: "url('https://i.pinimg.com/236x/19/42/d1/1942d12cf57ff9302b600af685a65d75.jpg')"
-    },
-    {
-        id: 8,
-        Movie: "Uriyadi 2",
-        artist: "Sid Sriram",
-        web: "./jhhhhhh/Vaa_Vaa_Penne-StarMusiQ.Fun.mp3",
-        name: "Vaa Vaa Penne",
-        img: "url('https://cdn4.sharechat.com/436f519_1555930617430.jpeg')"
-    },
-    {
-        id: 9,
-        Movie: "Eeswaran",
-        artist: "Silambarasan TR",
-        web: "./jhhhhhh/Mangalyam-StarMusiQ.Top.mp3",
-        name: " Mangalyam",
-        img: "url('https://c-cl.cdn.smule.com/rs-s-sf-2/arr/be/0e/da78a322-d6c8-49dd-8507-ea1965913dc8_1024.jpg')"
-    },
-    {
-        id: 10,
-        Movie: "Saguni",
-        artist: "GV Prakash Kumar",
-        web: "./jhhhhhh/Manasellam-VmusiQ.Com.mp3",
-        name: "Manasellam",
-        img: "url('https://c-cl.cdn.smule.com/rs-s-sf-2/arr/be/0e/da78a322-d6c8-49dd-8507-ea1965913dc8_1024.jpg')"
-    },
+
 ]
 
 let buttons = document.querySelectorAll("i")
